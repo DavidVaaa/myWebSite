@@ -302,6 +302,12 @@ body {
     scroll-snap-align: center;
   }
 
+  .photo img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+  }
+
   .all_awards {
     display: flex;
     flex-direction: row;
